@@ -1,0 +1,289 @@
+
+.img-with-text {
+    text-align: justify;
+    width: 500px;
+}
+item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    background-color: #252E6A;
+    /* To horizontally center images and caption */
+    text-align: left;
+    border: 7px solid #252E6A;
+    border-radius: 10px 10px 10px 10px;
+    /* The width of the container also implies margin around the images. */
+    width: 515px;
+    margin-right:30px;
+    margin-bottom:50px;
+
+}
+iframe{
+
+  height: 280px;
+  width: 500px;
+}
+
+
+#MainContent img {
+    border: 5px solid #252E6A;
+    margin: 0 auto;
+    max-width: 500px;
+    max-height: 300px;
+
+}
+#MainContent a {
+  font-size: 25px;
+  color: #CA5D96;
+
+}
+#MainContent p {
+  font-size: 20px;
+  max-width: 500px;
+  color: white;
+  font-style: bold;
+  background-color: #252E6A;
+  font-family: "Arial", Arial, Sans-serif;
+  font-weight: bold;
+  text-align: left;
+
+}
+
+
+
+
+
+
+nav .navbar-nav li a {
+  font-size: calc(6px + 0.5vw);
+}
+
+
+
+footer .row h3 {
+  color: #CA5D96;
+  font-size: calc(20px + 0.75vw);
+  font-family: "Arial", Arial, Sans-serif;
+  font-weight: bold;
+}
+
+footer .row a {
+  color: White;
+}
+
+footer .row a:hover {
+  opacity: 0.7;
+}
+
+footer .row p {
+  color: white;
+  font-size: 15px;
+  font-family: "Arial", Arial, Sans-serif;
+  font-weight: bold;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption h1 {
+  background-color: #fff;
+  opacity: 0.7;
+  border: 1px solid;
+  border-radius: 5px;
+}
+@media screen and (max-width: 1920px) {
+
+  #MainContent item {
+      /* To correctly align image, regardless of content height: */
+      vertical-align: top;
+      display: inline-block;
+      background-color: #252E6A;
+      /* To horizontally center images and caption */
+      text-align: left;
+      border: 7px solid #252E6A;
+      border-radius: 6px 6px 6px 6px;
+      /* The width of the container also implies margin around the images. */
+      width: 400px;
+      margin-right:0px;
+      margin-left:30px;
+      margin-bottom:25px;
+
+  }
+  iframe{
+    height: 215px;
+    width: 390px;
+  }
+  #Links h2{
+    margin-left: 0px;
+
+  }
+  #Links hr{
+    margin-left: 0px;
+
+  }
+
+  #MainContent img {
+      border: 5px solid #252E6A;
+      margin: 0 auto;
+      max-width: 390px;
+      max-height: 250px;
+
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  .carousel-caption {
+    display: none;
+  }
+
+  .col {
+    display: none;
+  }
+  #MainContent {
+    margin-left: 0px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+  #MainContent item {
+      /* To correctly align image, regardless of content height: */
+      vertical-align: top;
+      display: inline-block;
+      background-color: #252E6A;
+      /* To horizontally center images and caption */
+      text-align: left;
+      border: 7px solid #252E6A;
+      border-radius: 6px 6px 6px 6px;
+      /* The width of the container also implies margin around the images. */
+      width: 325px;
+      margin-right:0px;
+      margin-left:0px;
+      margin-bottom:5px;
+
+  }
+  iframe{
+    height: 200px;
+    width: 315px;
+  }
+  #Links h2{
+    margin-left: 0px;
+
+  }
+  #Links hr{
+    margin-left: 0px;
+
+  }
+
+  #MainContent img {
+      border: 5px solid #252E6A;
+      margin: 0 auto;
+      max-width: 315px;
+      max-height: 250px;
+
+  }
+}
+
+
+@media screen and (min-width: 1920px) {
+  #MainContent {
+    margin-left: 60px;
+    max-width: 96vw;
+
+  }
+}
+
+.navbar {
+  background-color: #252E6A;
+  min-height: 20px;
+}
+
+.nav-item {
+  padding-bottom: 25px;
+  height: 10px;
+  line-height: 10px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+}
+
+.navbar-nav>li {
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.col a {
+  color: white;
+  font-size: 1.3em;
+  font-style: bold;
+
+  font-weight: bold;
+  text-align: left;
+}
+
+a:hover {
+  color: #252E6A;
+  text-decoration: none;
+}
+
+a {
+  color: #252E6A;
+  font-style: bold;
+  font-family: "Arial", Arial, Sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
+
+.btn-secondary {
+  background-color: #7281BB;
+  font-size: 1em;
+  font-family: "Arial", Arial, Sans-serif;
+  font-weight: bold;
+  text-align: left;
+  outline: 0;
+  border-style: none;
+}
+#dr{
+  width: 999;
+}
+.btn-secondary:hover {
+  background-color: #7281BB;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.show >.btn-secondary:focus {
+  background-color: #7281BB;
+  box-shadow: 0 12px 16px blue, 0 17px 50px blue;
+}
+.dropdown-menu {
+  background-color: #7281BB;
+  width: 300px !important;
+  outline: 0;
+  border-right: 3px solid #252E6A;
+  border-left: 3px solid #252E6A;
+  border-bottom: 3px solid #252E6A;
+  border-top: 3px solid #252E6A;
+
+}
+
+.dropdown-menu a {
+  font-size: 1.2em;
+  color: white;
+}
+.dropdown-menu a:hover {
+  opacity: 0.5;
+}
+
+p {
+  font-size: 1.2em;
+  text-align: left;
+  font-family: "Arial", Arial, Sans-serif;
+}
+
+.carousel-caption {
+  max-height: 100px;
+  max-width: 655px;
+  top: 15%;
+  transform: translateX(-40%);
+}

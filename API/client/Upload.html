@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Changinglives</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+  <script src="https://kit.fontawesome.com/6ca1a35ed4.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <div class="row" style="width: 0px;margin-left: 20px;margin-top: 20px;margin-bottom: 20px;">
+
+    <a herf="central.office@changing-lives.org.uk" style="color:  #808080;position: absolute;right: 0;top: 50px;"><i class="fa fa-envelope" aria-home="true" style="color:#CA5D96;"></i> central.office@changing-lives.org.uk</a>
+    <a style="position: absolute;right: 325px;top: 50px;color:#808080;"><i class="fa fa-phone" aria-home="true" style="color:#CA5D96;"></i> 0191 273 8891</a>
+    <img src="images/client/logo.png" style="float: left; height:60px; width: 160px;">
+
+  </div>
+  <div style="background-color: #252E6A;max-width:99.9vw;height:calc(25px + 0.72vw)">
+    <button id="manageUsers" class="btn btn-primary right" type="button" name="button" style="visibility : hidden;height:calc(15px + 1vw);;" onclick="ShowManageUsers()">Manage Users</button>
+    <button id="manageResorces" class="btn btn-primary right" type="button" name="button" style="visibility : hidden;height:calc(15px + 1vw);;" onclick="getSections()">Manage resources</button>
+    <button class="btn btn-danger right" type="button" name="button"style="float: right;;height:calc(15px + 1vw);" onclick="LogOut()">Log out</button>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div id="Sections" class="col" style="background-color: #7281BB;max-width: 500px;min-height:1000px">
+
+      </div>
+
+      <div class="col-lg" style="max-width: 1200px;">
+        <div id="main" class="container-fluid">
+
+
+
+        </div>
+        <br>
+        <div id="test" class="container-fluid">
+
+
+
+        </div>
+
+
+
+
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+  </div>
+  <footer style="background-color: #252E6A;min-height:20vw;max-width: 99vw;">
+    </br>
+    <div class="row" style="max-width: 99vw;">
+      <div class="col-md-4 text-center">
+        <div class="container" style="float: center;max-width:250px">
+          <h3 style="float: left;">Our Group</h3>
+          </br>
+          </br>
+          </br>
+          <a href="https://www.changing-lives.org.uk/tcuk-homes/"><img src="images/client/1.png" style="float: left;height:30px; width: 120px;"></a>
+
+          </br>
+          </br>
+          </br>
+          <a href="http://www.fareshare-northeast.org.uk/"><img src="images/client/2.png" style="float: left; height:40px; width: 120px;"></a>
+
+
+          </br>
+          </br>
+          </br>
+          <a href="http://www.fulfillinglives-ng.org.uk/"><img src="images/client/3.png" style="float: left;height:40px; width: 75px;"></a>
+          </br>
+          </br>
+
+
+        </div>
+
+
+      </div>
+      <div class="col-sm-4 text-center">
+        <h3>FOLLOW US</h3>
+        </br>
+        <a href="https://www.facebook.com/ChangingLivesCharity/" class="fa fa-facebook" style="font-size: 50px;padding-right:2vw; "></a>
+        <a href="https://twitter.com/changinglives__" class="fa fa-twitter" style="font-size: 50px;padding-right:2vw;"></a>
+        <a href="https://www.youtube.com/channel/UCunNO1s09d4mcb6lsjcI68Q" class="fa fa-youtube" style="font-size: 50px;"></a>
+      </div>
+      <div class="col-sm-4" style="padding-left: 20px;">
+        <h3 class="text-center">Contact</h3>
+        </br>
+        <p>If you have any questions, need help or want to donate or volunteer, contact Changing Lives today.</p>
+
+        <a href="mailto:central.office@changing-lives.org.uk"><i class="fa fa-envelope" aria-home="true" style="color:white;"></i> central.office@changing-lives.org.uk</a>
+        </br>
+        </br>
+        <a href="tel:0191 273 8891" style="text-align:left;"><i class="fa fa-phone" aria-home="true" style="color:white;"></i> 0191 273 8891</a>
+      </div>
+
+
+
+    </div>
+  </footer>
+  <script id="AddSectionForm" type="text/html">
+    <h2 id="t">Add section</h2>
+    <form id="Add_Section" onsubmit="return false" id="Add_Section" action="http://127.0.01:80/addSection" method="post" enctype="multipart/form-data">
+        <label for="title">Title</label>
+        <textarea id="Title" type="text" class="form-control" placeholder="title" rows="1" name="title" required></textarea>
+
+        <label for="Description">Description</label>
+        <textarea class="form-control" id="Description" name="description" rows="5" placeholder="" required></textarea>
+
+        <label for="files" class="btn">Add thumbnail:</label>
+        <input type="file" id="img" name="thumbnail" accept="image/*">
+
+
+      <br>
+      <br>
+      <input type='submit' class="btn btn-primary">
+      <button type="reset"id="submit" class="btn btn-danger" name="button">Reset</button>
+    </form>
+  </script>
+  <script id="AddVideoForm" type="text/html">
+    <h2 id="c">Add Video</h2>
+    <form method="post" onsubmit="return false" id="Add_Video">
+      <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" class="form-control" placeholder="Title" id="Title" name="title" required>
+      </div>
+      <div class="form-group">
+        <label for="title">Link</label>
+        <input type="text" class="form-control" placeholder="Video link" name="location" required>
+      </div>
+      <br>
+      <input type='submit' class="btn btn-primary">
+      <button type="reset" class="btn btn-danger" name="button">Reset</button>
+    </form>
+  </script>
+  <script id="AddUserForm" type="text/html">
+    <h2 id="d">Add User</h2>
+    <form method="post" onsubmit="return false" id="Add_User">
+      <div class="form-group">
+        <label for="title">User name</label>
+        <input type="text" class="form-control" placeholder="User Name" id="Title" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="title">password</label>
+        <input type="password" class="form-control" placeholder="Password" id="pass" name="password" required>
+      </div>
+      <div class="form-group">
+        <label for="title">Confirm password</label>
+        <input type="password" class="form-control" placeholder="Confairm password" id="cpass" name="Cpassword" required>
+      </div>
+      <br>
+      <br>
+      <input type='submit' class="btn btn-primary">
+      <button type="reset" class="btn btn-danger" name="button">Reset</button>
+    </form>
+  </script>
+  <script id="EditUser" type="text/html">
+    <h2 id="d">Edit User</h2>
+    <form method="post" onsubmit="return false" id="Add_User">
+      <div class="form-group">
+        <label for="title">password</label>
+        <input type="password" class="form-control" placeholder="New password" id="pass" name="password" required>
+      </div>
+      <div class="form-group">
+        <label for="title">Confirm password</label>
+        <input type="password" class="form-control" placeholder="Confairm password" id="cpass" name="Cpassword" required>
+      </div>
+      <br>
+      <br>
+      <input type='submit' class="btn btn-primary">
+      <button type="reset" class="btn btn-danger" name="button">Reset</button>
+    </form>
+  </script>
+
+
+
+  <script id="AddDocForm" type="text/html">
+    <h2 id="d">Add Document</h2>
+    <form action="./AddDocument" method="post" onsubmit="return false" id="Add_Document">
+      <div class="form-group">
+        <label for="title">Title</label>
+        <textarea class="form-control" id="Title" name="title" rows="1" placeholder="title" required></textarea>
+      </div>
+      <label for="files" class="btn">Add a file:</label>
+       <input type="file" name="document" id="document">
+      <br>
+      <br>
+      <input type='submit' class="btn btn-primary">
+      <button type="reset" class="btn btn-danger" name="button">Reset</button>
+    </form>
+  </script>
+  <script src="js/upload.js"></script>
+</body>
+
+
+</html>
