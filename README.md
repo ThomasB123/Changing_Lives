@@ -1,3 +1,3 @@
 # ChangingLives
 
-This is a re-upload of the files from a private repository. Hence why there is no version history.
+This is a re-upload of files from a private repository, hence the lack of version history.
