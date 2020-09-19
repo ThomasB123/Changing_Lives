@@ -1,0 +1,78 @@
+{
+    "gpccngk69yh7g3": {
+        "id": "gpccngk69yh7g3",
+        "title": "SMART Targets",
+        "location": "/documents/SMART_Targets.docx",
+        "type": "document",
+        "thumbnail": "/images/icons/icon-docx.png"
+    },
+    "1h8r8wf7ck7rr9v27": {
+        "id": "1h8r8wf7ck7rr9v27",
+        "title": "Motivation",
+        "location": "/documents/Motivation_-_The_Foundation_of_A_Job_Search.pdf",
+        "type": "document",
+        "thumbnail": "/images/icons/icon-pdf.png"
+    },
+    "1h8r8w7aok7rrx6a1": {
+        "id": "1h8r8w7aok7rrx6a1",
+        "title": "Motivation & Goal-Setting",
+        "location": "/documents/Motivation_&_Goal_Setting_motivation_crib_sheet.pdf",
+        "type": "document",
+        "thumbnail": "/images/icons/icon-pdf.png"
+    },
+    "1h8r8wh4kk7ruthnk": {
+        "id": "1h8r8wh4kk7ruthnk",
+        "title": "Personality Test",
+        "location": "/documents/personality_test.pdf",
+        "type": "document",
+        "thumbnail": "/images/icons/icon-pdf.png"
+    },
+    "9ydjb0wk84qew9c": {
+        "id": "9ydjb0wk84qew9c",
+        "title": "CV Template",
+        "location": "/documents/9ydjb0wk84qew9b.pdf",
+        "type": "document",
+        "thumbnail": "/images/icons/icon-pdf.png"
+    },
+    "9ydjb0wk84qfanj": {
+        "id": "9ydjb0wk84qfanj",
+        "title": "CV Organising Information",
+        "location": "/documents/9ydjb0wk84qfani.pdf",
+        "type": "document",
+        "thumbnail": "/images/icons/icon-pdf.png"
+    },
+    "9ydjb0wk84qhju5": {
+        "id": "9ydjb0wk84qhju5",
+        "title": "Example video",
+        "location": "https://www.youtube.com/embed/UIPuuSNf3pE",
+        "type": "video"
+    },
+    "9ydjb0wk84qjvsd": {
+        "id": "9ydjb0wk84qjvsd",
+        "title": "CV quiz",
+        "location": "/documents/9ydjb0wk84qjvsc.pdf",
+        "type": "document",
+        "thumbnail": "/images/icons/icon-pdf.png"
+    },
+    "1h8r8w7g8k8yd33iz": {
+        "id": "1h8r8w7g8k8yd33iz",
+        "title": "Example PDF",
+        "location": "/documents/1h8r8w7g8k8yd33iy.pdf",
+        "type": "document",
+        "thumbnail": "/images/icons/icon-pdf.png"
+    },
+    "1h8r8w7g8k8yd3nqb": {
+        "id": "1h8r8w7g8k8yd3nqb",
+        "title": "Example Document",
+        "location": "/documents/1h8r8w7g8k8yd3nqa.docx",
+        "type": "document",
+        "thumbnail": "/images/icons/icon-docx.png"
+    },
+    "1h8r8w7g8k8yd4exg": {
+        "id": "1h8r8w7g8k8yd4exg",
+        "title": "Example PDF",
+        "location": "/documents/1h8r8w7g8k8yd4exf.pdf",
+        "type": "document",
+        "thumbnail": "/images/icons/icon-pdf.png"
+    }
+}
