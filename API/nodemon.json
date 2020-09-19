@@ -1,0 +1,3 @@
+{   
+    "ignore": ["client", "documents.json", "sections.json", "users.json"] 
+}

@@ -1,0 +1,10 @@
+{
+    "admin": {
+        "username": "admin",
+        "password": "$2b$10$pQRbKzAIpkR3oJAYzLdgJuEEHaDTWL6l7o1d42bStETPv/A4opvre"
+    },
+    "default": {
+        "username": "default",
+        "password": "$2b$10$xpEGQnrSehTcIEByIAzjROn1gnbBw0IqhPG.c2UjzYItM2WE/XVW2"
+    }
+}

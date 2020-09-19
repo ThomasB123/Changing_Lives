@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Login page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+  <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+  <link rel="stylesheet" href="css/login.css">
+
+  <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+
+</head>
+
+<body style="background-color: #7281BB;">
+
+  <div class="container" style=" background-color: #252E6A; height: 400px;width:400px;">
+    <input type='checkbox' id='form-switch'>
+    <form id='login-form' action="" method='post'>
+      <br>
+      <h1 class="text-center" style="color: white;">Wlecome</h1>
+      <br>
+      <h6 class="text-center" style="color: white;" >Please sign in</h6>
+      <br>
+      <input type="email" class="form-control" placeholder="Email" id="txtEmail" name="email" required>
+      <input id="txtPassword" type="password" class="form-control" placeholder="Password" name="password" required>
+      <hr>
+      <p id="Warning" style="color: red;">
+
+      </p>
+      <button id="btnLogin" class="btn btn-primary" type='submit'>Login</button>
+      <label for='form-switch' style="color: white;">Register</label>
+    </form>
+    <form id='register-form' action="" method='post' name="f">
+      <br>
+      <br>
+      <br>
+      <input type="text" placeholder="Name" class="form-control" name="N" required>
+      <input id="txtREmail" type="email" class="form-control" placeholder="Email" name="remail" required>
+      <input id="txtRPassword" type="password" class="form-control" placeholder="Password" name="rpass" required>
+      <input type="password" class="form-control" placeholder="Re Password" name="rrpass" required>
+      <p id="signup" style="color: red; font-size:18px;"></p>
+      <button class="btn btn-primary" type="reset" id="btnReg">Register</button>
+      <label for='form-switch' style="color: white;">Already Member ? Sign In Now..</label>
+    </form>
+  </div>
+
+  <script src="js/login.js"></script>
+</body>
+
+</html>
